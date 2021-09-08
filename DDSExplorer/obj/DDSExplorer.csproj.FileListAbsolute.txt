@@ -1,0 +1,15 @@
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\DDSExplorer.exe
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\DDSExplorer.pdb
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\DecisionTrees.dll
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\NeuralNetworks.dll
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\NeuralNetworks.pdb
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\NeuralNetworks.xml
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\DecisionTrees.pdb
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\bin\Debug\DecisionTrees.xml
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\DDSExplorer.frmDTClassifier.resources
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\DDSExplorer.frmMain.resources
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\DDSExplorer.frmNNClassifier.resources
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\DDSExplorer.csproj.GenerateResource.Cache
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\DDSExplorer.exe
+F:\Projects\MScProject\DiseaseDetectionSystem\DDSExplorer\obj\Debug\DDSExplorer.pdb

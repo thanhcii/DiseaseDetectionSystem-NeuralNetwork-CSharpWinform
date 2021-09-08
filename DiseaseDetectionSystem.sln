@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionTrees", "DecisionTree\DecisionTrees.csproj", "{48BECBBC-42D7-4A2C-89F5-9150E9A5AD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworks", "NeuralNetwork\NeuralNetworks.csproj", "{2A4E1914-0E71-44BA-ABB5-AE0707D6F9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDSExplorer", "DDSExplorer\DDSExplorer.csproj", "{531E8C46-6FA1-4B25-AF6F-10BB9FF7326D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48BECBBC-42D7-4A2C-89F5-9150E9A5AD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BECBBC-42D7-4A2C-89F5-9150E9A5AD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BECBBC-42D7-4A2C-89F5-9150E9A5AD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BECBBC-42D7-4A2C-89F5-9150E9A5AD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4E1914-0E71-44BA-ABB5-AE0707D6F9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4E1914-0E71-44BA-ABB5-AE0707D6F9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4E1914-0E71-44BA-ABB5-AE0707D6F9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4E1914-0E71-44BA-ABB5-AE0707D6F9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531E8C46-6FA1-4B25-AF6F-10BB9FF7326D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531E8C46-6FA1-4B25-AF6F-10BB9FF7326D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531E8C46-6FA1-4B25-AF6F-10BB9FF7326D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531E8C46-6FA1-4B25-AF6F-10BB9FF7326D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F459C21-E15C-4059-97EC-5F58F176EC82}
+	EndGlobalSection
+EndGlobal
