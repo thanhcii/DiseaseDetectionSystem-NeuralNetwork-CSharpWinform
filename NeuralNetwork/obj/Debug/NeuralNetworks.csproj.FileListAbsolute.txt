@@ -1,0 +1,13 @@
+E:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.dll
+E:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.pdb
+E:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.XML
+E:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.dll
+E:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.pdb
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.dll
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.pdb
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.XML
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.csprojResolveAssemblyReference.cache
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.csproj.CoreCompileInputs.cache
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.dll
+F:\Studio\Windows Form\Source code\Application\Visual C#\cadds(7thJuly2010)\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.pdb

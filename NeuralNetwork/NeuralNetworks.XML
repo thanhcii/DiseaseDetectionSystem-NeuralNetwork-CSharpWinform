@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NeuralNetworks</name>
+    </assembly>
+    <members>
+        <member name="T:NeuralNetworks.Neuron">
+            <summary>
+            A Neuron is the basic building block of a Neural Network
+            </summary>
+        </member>
+        <member name="M:NeuralNetworks.Neuron.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Public constructor for initializing a neuron  
+            </summary>
+            <param name="layer">Input Layer = 0, Hidden Layer = 1 and Output Layer = 2</param>
+            <param name="index">A number assigned to a cell for ordering the cell or identifying it</param>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.player">
+            <summary>
+            Internal storage for Neuron.Layer public property
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Layer">
+            <summary>
+            INPUT LAYER = 0, HIDDEN LAYER = 1, OUTPUT LAYER = 2
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.pindex">
+            <summary>
+            Internal storage for Neuron.Index public property
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Index">
+            <summary>
+            Identifies a Neuron or the position of a Neuron in a LAYER
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.pinput">
+            <summary>
+            Internal storage for Neuron.Input public property
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Input">
+            <summary>
+            Input data fed to the Neural Network
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.poutput">
+            <summary>
+            Internal storage for Neuron.Output public property
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Output">
+            <summary>
+            Calculated Ouput from the INPUT, HIDDEN or OUTPUT LAYER
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.poutputTraining">
+            <summary>
+            Internal storage for Neutron.OutputTraining public property
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.OutputTraining">
+            <summary>
+            Expected or Target or Learning output for a neutron
+            in the OUPUT LAYER
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.pweight">
+            <summary>
+            Internal storage for Network.Weight public property  
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Weight">
+            <summary>
+            Storage for array of weights from OUTPUT to 
+            HIDDEN LAYER and from HIDDENLAYER TO INPUT 
+            LAYER. Each Neuron in the OUTPUT and HIDDEN 
+            LAYER is connected to an array of Neurons
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.Neuron.pbias">
+            <summary>
+            Internal storage for Network.Bias public property
+            </summary>        
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Bias">
+            <summary> 
+            Varies the OUTPUT of a Neuron in a HIDDEN or OUTPUT LAYER 
+            </summary> 
+        </member>
+        <member name="F:NeuralNetworks.Neuron.perror">
+            <summary>
+            Internal storage for Network.Error public property
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.Neuron.Error">
+            <summary>
+            Error = (ACTUALOUTPUT * (1 - ACTUALOUTPUT) * (EXPECTEDOUTPUT - ACTUALOUTPUT)) 
+            </summary> 
+        </member>
+        <member name="M:NeuralNetworks.Neuron.LogisticFunction(System.Double)">
+            <summary> 
+            Sigmoid Function or Logistic Function or Activation Function
+            is applied to the INPUT to a NETWORK LAYER to get an OUTPUT
+            </summary> 
+            <param name="val">
+            The value to calculate a Sigmoid or Logistic Function for
+            </param> 
+            <returns>
+            System.Double datatype of the Logistic or Sigmoid Function result
+            </returns> 
+        </member>
+        <member name="M:NeuralNetworks.Neuron.LogisticFunctionDerivative(System.Double)">
+            <summary>
+            Derivative of the Sigmoid Function or Logistic Function or Activation Function
+            The derivative of the Logistic Activation Function is represented with 
+            F(x) = F(x)*(1- F(x)) where F(x) is represented by 1/( 1 - e-x ). 
+            </summary>
+            <param name="val">
+            The value to calculate the derivative of the Sigmoid Function for
+            </param>
+            <returns>
+            System.Double datatype of the numeric result
+            </returns>
+        </member>
+        <member name="T:NeuralNetworks.NeuralNetwork">
+            <summary>
+            MultiLayer FeedForward Neural Network With BackPropagation Algorithm
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.rand">
+            <summary>
+            Static variable for random numbers
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.input_count">
+            <summary>
+            Static variable for number of neurons or cells in INPUT LAYER 
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.hidden_count">
+            <summary>
+            Static variable for number of neurons or cells in HIDDEN LAYER
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.output_count">
+            <summary>
+            Static variable for number of neurons or cells in OUTPUT LAYER
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.iterations">
+            <summary>
+            Static variable for the number of processing cycles of the Neural Network 
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.learning_rate">
+            <summary>
+            Represents the LEARNING RATE used in gradient descent to 
+            prevent weights from converging at sub-optimal solutions.
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.input_data">
+            <summary>
+            A two dimensional array of input data from a training sample
+            An INPUT represented as double [,] inputDataArray = new Double [,] 
+            {{0.20, 0.80}, {0.80, 0.4}} would represent 2 training instances
+            for an INPUT LAYER with 2 NEURONS or CELLS
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.output_data">
+            <summary>
+            A two dimensional array of output data from a training sample
+            An OUTPUT represented as double [,] outputDataArray = new Double [,] 
+            {{0}, {1}} would represent 2 training instances
+            for an OUTPUT LAYER with 1 NEURON or CELL
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.input">
+            <summary>
+            A collection of neurons representing the input layer
+            </summary>      
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.hidden">
+            <summary>
+            A collection of neurons representing the hidden layer
+            </summary>
+        </member>
+        <member name="F:NeuralNetworks.NeuralNetwork.output">
+            <summary>
+            A collection of neurons representing the output layer
+            </summary>
+        </member>
+        <member name="M:NeuralNetworks.NeuralNetwork.Initialize(System.Double[0:,0:],System.Double[0:,0:],System.Int32)">
+            <summary>
+            Initializes the LAYERS in the NEURAL NETWORK
+            </summary>
+            <param name="inputData">
+            INPUTS data for the NEURONS in the INPUT LAYER
+            </param>
+            <param name="outputData">
+            OUTPUT data for the NEURONS in the OUTPUT LAYER
+            </param>
+            <param name="hidden_layer_count">
+            The number of neurons in the HIDDEN LAYER  
+            </param>                   
+        </member>
+        <member name="M:NeuralNetworks.NeuralNetwork.FeedForward(System.Int32)">
+            <summary>
+            Initializes the NEURAL NETWORK with training data input
+            or a real world data input for classification.
+            FeedForward feeds the INPUT to the INPUT LAYER neurons
+            FeedForward feeds the OUTPUT from the INPUT LAYER to the HIDDEN LAYER
+            FeedForward feeds the OUTPUT from the HIDDEN LAYER to the OUTPUT LAYER
+            FeedForward uses the Sigmoid Function or Logistic Function to calculate  
+            the OUTPUT from the INPUT in the HIDDEN and OUTPUT LAYERS
+            </summary>
+            <param name="sampleNumber">
+            A numeric ordered value representing the training or 
+            classification instance. If the dataset contains 10 
+            instances or rows, the first row has a sampleNumber = 0
+            and the last row or instance has a sample number = 9
+            </param>
+        </member>
+        <member name="M:NeuralNetworks.NeuralNetwork.BackPropagate">
+            <summary>
+            Recalculates the BIAS and ERROR in the HIDDEN LAYER
+            and OUTPUT LAYER. Adjustes the WEIGHTS between the 
+            OUTPUT LAYER and HIDDEN LAYER and between the HIDDEN
+            LAYER and the INPUT LAYER using the derivative of
+            the Sigmoid Function or Logistic Function
+            </summary>
+        </member>
+        <member name="P:NeuralNetworks.NeuralNetwork.Random">
+            <summary> 
+            Generates random double values between -1.0 and +1.0
+            </summary> 
+            <returns>
+            System.Double data type between -1.0 and +1.0 
+            </returns> 
+        </member>
+        <member name="T:NeuralNetworks.Neurons">
+            <summary>
+            A Neural Network Layer or collection of cells or neurons
+            </summary>
+        </member>
+        <member name="M:NeuralNetworks.Neurons.Add(NeuralNetworks.Neuron)">
+            <summary>
+            Adds a neuron to a Neural Network Layer or collection of cells
+            </summary>
+            <param name="newNeuron">
+            The neuron to add to a Neural Network Layer
+            </param>
+        </member>
+        <member name="M:NeuralNetworks.Neurons.Insert(System.Int32,NeuralNetworks.Neuron)">
+            <summary>
+            Adds a neuron to a Neural Network Layer at a specific position
+            </summary>
+            <param name="index">
+            The position where a neuron will be inserted
+            </param>
+            <param name="newNeuron">
+            The neuron to add to a Neural Network Layer
+            </param>
+        </member>
+        <member name="P:NeuralNetworks.Neurons.Item(System.Int32)">
+            <summary>
+            ReadOnly indexer - retrieves the neuron at a 
+            specific position or location in the Neural 
+            Network Layer or Neural Network Collection
+            </summary> 
+        </member>
+    </members>
+</doc>

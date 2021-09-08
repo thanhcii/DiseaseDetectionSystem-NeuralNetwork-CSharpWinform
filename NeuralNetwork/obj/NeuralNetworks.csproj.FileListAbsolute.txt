@@ -1,0 +1,6 @@
+F:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.dll
+F:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.pdb
+F:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\bin\Debug\NeuralNetworks.XML
+F:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.dll
+F:\Projects\MScProject\DiseaseDetectionSystem\NeuralNetwork\obj\Debug\NeuralNetworks.pdb
