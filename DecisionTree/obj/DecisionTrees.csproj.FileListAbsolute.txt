@@ -1,0 +1,6 @@
+F:\Projects\MScProject\DiseaseDetectionSystem\DecisionTree\bin\Debug\DecisionTrees.dll
+F:\Projects\MScProject\DiseaseDetectionSystem\DecisionTree\bin\Debug\DecisionTrees.pdb
+F:\Projects\MScProject\DiseaseDetectionSystem\DecisionTree\bin\Debug\DecisionTrees.xml
+F:\Projects\MScProject\DiseaseDetectionSystem\DecisionTree\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\MScProject\DiseaseDetectionSystem\DecisionTree\obj\Debug\DecisionTrees.dll
+F:\Projects\MScProject\DiseaseDetectionSystem\DecisionTree\obj\Debug\DecisionTrees.pdb
